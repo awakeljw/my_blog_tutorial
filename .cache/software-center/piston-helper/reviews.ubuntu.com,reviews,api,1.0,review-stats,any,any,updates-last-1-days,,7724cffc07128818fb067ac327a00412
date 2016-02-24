@@ -1,0 +1,164 @@
+status: 200
+content-length: 3941
+expires: Thu, 01 Oct 2015 13:31:07 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/review-stats/any/any/updates-last-1-days/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept,Accept-Encoding
+server: gunicorn/17.5
+last-modified: Thu, 01 Oct 2015 09:31:07 GMT
+-content-encoding: gzip
+x-bzr-revision-number: 305
+cache-control: max-age=14400
+date: Thu, 01 Oct 2015 09:42:33 GMT
+content-type: application/json; charset=utf-8
+-varied-accept-encoding: gzip, deflate
+
+[
+    {
+        "ratings_total": 9, 
+        "ratings_average": "3.11", 
+        "app_name": "", 
+        "package_name": "gnac", 
+        "histogram": "[3, 1, 0, 2, 3]"
+    }, 
+    {
+        "ratings_total": 9, 
+        "ratings_average": "4.22", 
+        "app_name": "", 
+        "package_name": "pax-britannica", 
+        "histogram": "[0, 1, 0, 4, 4]"
+    }, 
+    {
+        "ratings_total": 134, 
+        "ratings_average": "4.10", 
+        "app_name": "", 
+        "package_name": "tomboy", 
+        "histogram": "[10, 6, 18, 27, 73]"
+    }, 
+    {
+        "ratings_total": 19, 
+        "ratings_average": "4.37", 
+        "app_name": "", 
+        "package_name": "scantailor", 
+        "histogram": "[1, 1, 1, 3, 13]"
+    }, 
+    {
+        "ratings_total": 313, 
+        "ratings_average": "4.38", 
+        "app_name": "", 
+        "package_name": "soundconverter", 
+        "histogram": "[23, 11, 14, 41, 224]"
+    }, 
+    {
+        "ratings_total": 11, 
+        "ratings_average": "4.36", 
+        "app_name": "", 
+        "package_name": "flight-of-the-amazon-queen", 
+        "histogram": "[0, 1, 0, 4, 6]"
+    }, 
+    {
+        "ratings_total": 32, 
+        "ratings_average": "4.22", 
+        "app_name": "", 
+        "package_name": "soundkonverter", 
+        "histogram": "[4, 0, 1, 7, 20]"
+    }, 
+    {
+        "ratings_total": 37, 
+        "ratings_average": "3.19", 
+        "app_name": "", 
+        "package_name": "hotot-gtk", 
+        "histogram": "[12, 3, 2, 6, 14]"
+    }, 
+    {
+        "ratings_total": 119, 
+        "ratings_average": "1.56", 
+        "app_name": "", 
+        "package_name": "unity-webapps-youtube", 
+        "histogram": "[93, 7, 6, 4, 9]"
+    }, 
+    {
+        "ratings_total": 274, 
+        "ratings_average": "4.22", 
+        "app_name": "", 
+        "package_name": "kazam", 
+        "histogram": "[26, 12, 21, 33, 182]"
+    }, 
+    {
+        "ratings_total": 79, 
+        "ratings_average": "4.01", 
+        "app_name": "", 
+        "package_name": "brightness-controller", 
+        "histogram": "[13, 1, 5, 13, 47]"
+    }, 
+    {
+        "ratings_total": 301, 
+        "ratings_average": "4.53", 
+        "app_name": "", 
+        "package_name": "virtualbox-qt", 
+        "histogram": "[10, 1, 22, 54, 214]"
+    }, 
+    {
+        "ratings_total": 83, 
+        "ratings_average": "3.49", 
+        "app_name": "", 
+        "package_name": "miro", 
+        "histogram": "[20, 5, 9, 12, 37]"
+    }, 
+    {
+        "ratings_total": 409, 
+        "ratings_average": "4.61", 
+        "app_name": "", 
+        "package_name": "qbittorrent", 
+        "histogram": "[17, 7, 15, 39, 331]"
+    }, 
+    {
+        "ratings_total": 11, 
+        "ratings_average": "4.55", 
+        "app_name": "", 
+        "package_name": "ffmpeg", 
+        "histogram": "[1, 0, 0, 1, 9]"
+    }, 
+    {
+        "ratings_total": 34, 
+        "ratings_average": "4.65", 
+        "app_name": "", 
+        "package_name": "gummi", 
+        "histogram": "[2, 0, 0, 4, 28]"
+    }, 
+    {
+        "ratings_total": 371, 
+        "ratings_average": "4.78", 
+        "app_name": "", 
+        "package_name": "inkscape", 
+        "histogram": "[3, 2, 11, 43, 312]"
+    }, 
+    {
+        "ratings_total": 66, 
+        "ratings_average": "4.24", 
+        "app_name": "", 
+        "package_name": "nitro", 
+        "histogram": "[4, 3, 4, 17, 38]"
+    }, 
+    {
+        "ratings_total": 211, 
+        "ratings_average": "4.14", 
+        "app_name": "", 
+        "package_name": "pdfshuffler", 
+        "histogram": "[20, 15, 6, 44, 126]"
+    }, 
+    {
+        "ratings_total": 2034, 
+        "ratings_average": "4.77", 
+        "app_name": "", 
+        "package_name": "vlc", 
+        "histogram": "[42, 19, 48, 156, 1769]"
+    }, 
+    {
+        "ratings_total": 54, 
+        "ratings_average": "1.70", 
+        "app_name": "", 
+        "package_name": "unity-webapps-facebookmessenger", 
+        "histogram": "[37, 8, 2, 2, 5]"
+    }
+]

@@ -1,0 +1,90 @@
+2015-09-30 23:26:52,949 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-09-30 23:26:55,187 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-09-30 23:26:55,503 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-09-30 23:26:55,520 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-09-30 23:26:55,760 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-09-30 23:27:02,485 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-09-30 23:27:02,485 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-09-30 23:27:10,344 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-10-01 17:42:25,367 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-10-01 17:42:28,082 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-10-01 17:42:28,716 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-10-01 17:42:28,744 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-10-01 17:42:29,428 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-10-01 17:42:34,547 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-10-01 17:42:34,604 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-10-01 17:43:25,069 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-10-01 17:43:33,566 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-10-01 17:43:34,308 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-10-01 17:43:34,337 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-10-01 17:43:34,643 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-10-01 17:43:35,969 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-10-01 17:43:35,973 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-10-01 19:31:50,045 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-10-01 19:31:51,762 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2015-10-01 19:31:52,170 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-10-01 19:31:52,182 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-10-01 19:31:52,378 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-10-01 19:31:53,793 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-10-01 19:31:53,805 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-10-01 19:32:04,494 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-10-01 19:32:07,605 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "sogoupinyin"}']'
+2015-10-01 19:32:07,612 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '200', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 01 Oct 2015 11:28:47 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+'
+2015-10-01 19:32:07,613 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '200', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 01 Oct 2015 11:28:47 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+
+2015-10-01 19:32:07,613 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '200', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 01 Oct 2015 11:28:47 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+
+2015-10-01 19:32:08,051 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2015-10-01 19:32:12,552 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-10-01 19:32:34,007 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-10-01 19:34:21,993 - softwarecenter.ui.gtk3.app - INFO - found a running software-center on dbus, reconnecting
+2015-10-01 19:37:43,467 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-10-01 19:37:46,028 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-10-01 19:37:52,535 - softwarecenter.utils - WARNING - Could not determine the installed desktop file path for app-install desktop file: 'None'
+2015-10-01 19:37:52,536 - softwarecenter.backend.zeitgeist_logger - WARNING - Invalid desktop file provided, impossible to log event
+2015-10-01 20:05:11,121 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2015-10-01 20:05:12,429 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2015-10-01 20:05:12,449 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2015-10-01 20:05:12,663 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2015-10-01 20:05:14,258 - softwarecenter.backend.reviews - WARNING - error creating bsddb: '(22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')' (corrupted?)
+2015-10-01 20:05:14,261 - softwarecenter.backend.reviews - ERROR - trying to repair DB failed
+Traceback (most recent call last):
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 358, in _save_review_stats_cache_blocking
+    self._dump_bsddbm_for_unity(outfile, outdir)
+  File "/usr/share/software-center/softwarecenter/backend/reviews/__init__.py", line 377, in _dump_bsddbm_for_unity
+    0600)
+DBInvalidArgError: (22, '\xe6\x97\xa0\xe6\x95\x88\xe7\x9a\x84\xe5\x8f\x82\xe6\x95\xb0 -- BDB0054 illegal flag combination specified to DB_ENV->open')
+2015-10-01 20:05:21,582 - softwarecenter.db.utils - INFO - software-center-agent finished with status 0
+2015-10-01 20:05:28,043 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "sogoupinyin"}']'
+2015-10-01 20:05:28,046 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '65', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 01 Oct 2015 12:04:22 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+'
+2015-10-01 20:05:28,051 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '65', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 01 Oct 2015 12:04:22 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+
+2015-10-01 20:05:28,053 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:404: {'status': '404', 'content-length': '60', 'via': '1.1 sumac.canonical.com:3128 (squid/2.7.STABLE7)', 'x-cache': 'HIT from sumac.canonical.com', 'age': '65', 'strict-transport-security': 'max-age=2592000', 'server': 'Apache', 'etag': '"4963fbf0dd263e91fab0294c2ecf130b"', 'cache-control': 'max-age=300', 'date': 'Thu, 01 Oct 2015 12:04:22 GMT', 'content-type': 'text/html; charset=utf-8', 'x-cache-lookup': 'HIT from sumac.canonical.com:3128'}
+

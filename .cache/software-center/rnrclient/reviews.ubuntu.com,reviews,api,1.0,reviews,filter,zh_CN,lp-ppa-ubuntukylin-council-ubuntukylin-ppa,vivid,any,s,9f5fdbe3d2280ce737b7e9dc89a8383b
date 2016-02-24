@@ -1,0 +1,14 @@
+status: 200
+content-length: 2
+expires: Thu, 01 Oct 2015 12:10:27 GMT
+content-location: https://reviews.ubuntu.com/reviews/api/1.0/reviews/filter/zh_CN/lp-ppa-ubuntukylin-council-ubuntukylin-ppa/vivid/any/sogoupinyin/page/1/helpful/
+strict-transport-security: max-age=15768000; includeSubDomains; preload
+vary: Accept
+server: gunicorn/17.5
+last-modified: Thu, 01 Oct 2015 12:05:27 GMT
+x-bzr-revision-number: 305
+cache-control: max-age=300
+date: Thu, 01 Oct 2015 12:05:27 GMT
+content-type: application/json; charset=utf-8
+
+[]

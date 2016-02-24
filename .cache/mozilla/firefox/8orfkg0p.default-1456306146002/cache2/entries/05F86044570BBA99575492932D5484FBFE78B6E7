@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Site administration | Django site admin</title>
+
+  
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap_admin/css/bootstrap.min.css" />
+  
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+
+<link rel="stylesheet" type="text/css" href="/static/admin/css/dashboard.css" />
+
+
+
+
+  <script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+  <script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+
+  <script>
+    (function ($) {
+      $(document).ready(function(){
+        $("#overlay").delay(600).fadeOut(500);
+      });
+    })(django.jQuery);
+  </script>
+  <script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+  <script type="text/javascript">window.__admin_utc_offset__ = "0";</script>
+
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+<body class=" dashboard">
+
+  <div id="overlay">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- <div class="col-sm-3 col-md-2 sidebar"> -->
+      
+        
+          
+
+            <div id="sidebar-menu" class="col-xs-6 col-sm-3 col-md-2 sidebar-menu">
+              
+                <a href="/admin/" class="django-admin-logo">
+                  <!-- Django Administration -->
+                  <img src="/static/bootstrap_admin/img/logo-140x60.png" alt="Django administration">
+                </a>
+              
+              
+              
+
+  
+    <ul class="nav nav-sidebar app-article module">
+      <li >
+        <a href="/admin/article/" class="section" title="Models in the Article application">
+          Article
+        </a>
+      </li>
+      
+        <li >
+          <a href="/admin/article/article/" title="">Articles</a>
+        </li>
+      
+    </ul>
+  
+    <ul class="nav nav-sidebar app-auth module">
+      <li >
+        <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">
+          Authentication and Authorization
+        </a>
+      </li>
+      
+        <li >
+          <a href="/admin/auth/group/" title="">Groups</a>
+        </li>
+      
+        <li >
+          <a href="/admin/auth/user/" title="">Users</a>
+        </li>
+      
+    </ul>
+  
+
+
+            </div>
+          
+        
+      
+
+      
+        <div id="content" class="col-xs-6 col-xs-offset-6 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main colMS">
+          
+            <div class="main-header">
+              
+                <button type="button" class="show-hide-sidebar-menu">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              
+              
+              
+                <h1>
+                
+                  <span class="django-admin-title">Django administration &raquo;</span>
+                  Site administration
+                
+                </h1>
+              
+              <div id="user-tools" class="btn-group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    
+                      
+                        awakeljw
+                      
+                    
+                    <span class="caret"></span>
+                  </button>
+
+                  
+                  <ul class="dropdown-menu pull-right" role="menu">
+                    
+                    
+                      <li>
+                        <a href="/admin/password_change/">Change password</a>
+                      </li>
+                    
+                    <li>
+                      <a href="/admin/logout/">Log out</a>
+                    </li>
+                  </ul>
+                </div>
+                
+                <a href="/admin/logout/" title="Log out" class="btn btn-default hidden-xs">
+                  <span class="glyphicon glyphicon-off"></span>
+                </a>
+              </div>
+            </div>
+          
+          
+            <ol class="breadcrumb">
+              <li class="home">
+                <a href="/admin/" title="Home"><span class="glyphicon glyphicon-home"></span></a>
+              </li>
+              <li class="active">Site administration</li>
+            </ol>
+          
+
+          
+            
+          
+
+          
+<div id="content-main">
+  
+    <div class="panel panel-default" id="apps">
+      <div class="panel-heading">
+        <div class="btn-group apps-recent-actions">
+          <button class="btn btn-default" title="Apps">
+            <span class="glyphicon glyphicon-star-empty"></span>
+          </button>
+          <a href="#timeline" class="btn btn-default" title="Recent Actions">
+            <span class="glyphicon glyphicon-tasks"></span> Recent Actions
+          </a>
+        </div>
+      </div>
+      <div class="table-responsive table-apps">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th class="title-head-apps">
+                Apps
+              </th>
+              <th class="search-apps-models">
+                <form action="" method="get">
+                  <div class="wrapper">
+                    <span class="glyphicon glyphicon-search"></span>
+                    <input placeholder="Search" class="search form-control input-sm" type="input" name="q">
+                    <span class="remove-this label label-info"><span class="glyphicon glyphicon-remove"></span> <span class="text"></span></span>
+                  </div>
+                </form>
+              </th>
+              <th class="title-head-actions">Action</th>
+            </tr>
+          </thead>
+          <tbody class="list">
+            
+              
+              
+                <tr class="app-article bg-colored">
+                
+                  <td rowspan="1" class="app-name ">
+                    <a href="/admin/article/" class="section" title="Models in the Article application">Article</a>
+                  </td>
+                
+
+                <td class="model-name model-article">
+                  
+                    <a href="/admin/article/" class="extra-app-name" title="Models in the Article application">Article</a>
+                  
+                  <a href="/admin/article/article/" title="Article &raquo; Articles" >Articles</a>
+                </td>
+
+                <td class="model-article actions">
+                  <div class="btn-group btn-group-justified btn-group-actions">
+                    <a href="/admin/article/article/add/" role="button" class="addlink btn " data-toggle="tooltip" data-placement="left" title="Add"><span class="glyphicon glyphicon-plus"></span></a>
+                    <a href="/admin/article/article/" role="button" class="changelink btn " title="Change" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <a href="#" class="btn search-in-model" data-toggle="tooltip" data-placement="left" title="Search" data-model-name="Articles" data-url-model-name="/admin/article/article/"><span class="glyphicon glyphicon-search"></span></a>
+                  </div>
+                </td>
+              </tr>
+              
+            
+              
+              
+                <tr class="app-auth">
+                
+                  <td rowspan="2" class="app-name last-app">
+                    <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>
+                  </td>
+                
+
+                <td class="model-name model-group">
+                  
+                    <a href="/admin/auth/" class="extra-app-name" title="Models in the Authentication and Authorization application">Authentication and Authorization</a>
+                  
+                  <a href="/admin/auth/group/" title="Authentication and Authorization &raquo; Groups" >Groups</a>
+                </td>
+
+                <td class="model-group actions">
+                  <div class="btn-group btn-group-justified btn-group-actions">
+                    <a href="/admin/auth/group/add/" role="button" class="addlink btn " data-toggle="tooltip" data-placement="left" title="Add"><span class="glyphicon glyphicon-plus"></span></a>
+                    <a href="/admin/auth/group/" role="button" class="changelink btn " title="Change" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <a href="#" class="btn search-in-model" data-toggle="tooltip" data-placement="left" title="Search" data-model-name="Groups" data-url-model-name="/admin/auth/group/"><span class="glyphicon glyphicon-search"></span></a>
+                  </div>
+                </td>
+              </tr>
+              
+                <tr class="app-auth">
+                
+
+                <td class="model-name model-user">
+                  
+                  <a href="/admin/auth/user/" title="Authentication and Authorization &raquo; Users" >Users</a>
+                </td>
+
+                <td class="model-user actions">
+                  <div class="btn-group btn-group-justified btn-group-actions">
+                    <a href="/admin/auth/user/add/" role="button" class="addlink btn " data-toggle="tooltip" data-placement="left" title="Add"><span class="glyphicon glyphicon-plus"></span></a>
+                    <a href="/admin/auth/user/" role="button" class="changelink btn " title="Change" data-toggle="tooltip" data-placement="left"><span class="glyphicon glyphicon-pencil"></span></a>
+                    <a href="#" class="btn search-in-model" data-toggle="tooltip" data-placement="left" title="Search" data-model-name="Users" data-url-model-name="/admin/auth/user/"><span class="glyphicon glyphicon-search"></span></a>
+                  </div>
+                </td>
+              </tr>
+              
+            
+          </tbody>
+        </table>
+      </div>
+      
+        <div id="content-related" class="recent-actions panel-body">
+          <div class="module" id="recent-actions-module">
+            <div class="page-header">
+              <h2 id="timeline" class="h3">Recent Actions <small>(My Actions)</small></h2>
+            </div>
+            
+            
+            
+              <ul class="timeline">
+                
+                  
+                  <li>
+                    <span class="timeline-badge add">
+                      <i class="glyphicon glyphicon-plus"></i>
+                    </span>
+                  
+                    <span class="timeline-panel">
+                      <span class="timeline-heading">
+                        <h3 class="timeline-title h4">
+                          
+                            Article
+                          
+                        </h3>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i> Feb. 24, 2016, 1:53 p.m.
+                          </small>
+                        </p>
+                      </span>
+                      <span class="timeline-body">
+                        <p>
+                          
+                            <a href="/admin/article/article/3/">sd</a>
+                          
+                        </p>
+                      </span>
+                    </span>
+                  </li>
+                
+              </ul>
+            
+          </div>
+        </div>
+      
+    </div>
+  
+</div>
+
+        </div>
+      
+    </div>
+  </div>
+
+
+  <script src="/static/bootstrap_admin/js/bootstrap.min.js"></script>
+  <script src="/static/bootstrap_admin/js/base.js"></script>
+
+
+
+  <script src="/static/bootstrap_admin/js/dashboard.js"></script>
+
+</body>
+</html>
+šô.f<‡           VÍÇ~<*ö±       :http://localhost:9000/admin/ request-method GET request-Cookie DiMPWPmAy1PscPLCjdpkfQ+scZQ= response-head HTTP/1.0 200 OK
+Date: Wed, 24 Feb 2016 15:08:46 GMT
+Server: WSGIServer/0.1 Python/2.7.9
+Expires: Wed, 24 Feb 2016 15:08:45 GMT
+Vary: Cookie
+Last-Modified: Wed, 24 Feb 2016 15:08:45 GMT
+Cache-Control: max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 10 predictor::http://localhost:9000/static/bootstrap_admin/css/bootstrap.min.css 1,1,0,0 predictor::http://localhost:9000/static/admin/css/base.css 1,1,0,0 predictor::http://localhost:9000/static/admin/css/dashboard.css 1,1,0,0 predictor::http://localhost:9000/static/admin/js/jquery.js 1,1,0,0 predictor::http://localhost:9000/static/admin/js/jquery.init.js 1,1,0,0 predictor::http://localhost:9000/static/bootstrap_admin/img/logo-140x60.png 1,1,0,0 predictor::http://localhost:9000/static/bootstrap_admin/js/bootstrap.min.js 1,1,0,0 predictor::http://localhost:9000/static/bootstrap_admin/js/base.js 1,1,0,0 predictor::http://localhost:9000/static/bootstrap_admin/js/dashboard.js 1,1,0,0 predictor::http://localhost:9000/static/bootstrap_admin/fonts/glyphicons-halflings-regular.woff 1,1,0,0   0—

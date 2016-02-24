@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Select article to change | Django site admin</title>
+
+  
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap_admin/css/bootstrap.min.css" />
+  
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+
+
+  
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/changelists.css" />
+  
+  
+    <script type="text/javascript" src="/admin/jsi18n/"></script>
+  
+  
+  
+
+
+
+
+
+  <script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+  <script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+
+  <script>
+    (function ($) {
+      $(document).ready(function(){
+        $("#overlay").delay(600).fadeOut(500);
+      });
+    })(django.jQuery);
+  </script>
+  <script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+  <script type="text/javascript">window.__admin_utc_offset__ = "0";</script>
+
+
+  
+  <script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+  
+    
+      <script type="text/javascript">
+      (function($) {
+          $(document).ready(function($) {
+            $("tr input.action-select").actions();
+          });
+      })(django.jQuery);
+      </script>
+    
+  
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+<body class=" app-article model-article change-list">
+
+  <div id="overlay">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- <div class="col-sm-3 col-md-2 sidebar"> -->
+      
+        
+          
+
+            <div id="sidebar-menu" class="col-xs-6 col-sm-3 col-md-2 sidebar-menu">
+              
+                <a href="/admin/" class="django-admin-logo">
+                  <!-- Django Administration -->
+                  <img src="/static/bootstrap_admin/img/logo-140x60.png" alt="Django administration">
+                </a>
+              
+              
+  
+
+              
+
+  
+    <ul class="nav nav-sidebar app-article module has-active-menu show-models">
+      <li >
+        <a href="/admin/article/" class="section" title="Models in the Article application">
+          Article
+        </a>
+      </li>
+      
+        <li class="active">
+          <a href="/admin/article/article/" title="">Articles</a>
+        </li>
+      
+    </ul>
+  
+    <ul class="nav nav-sidebar app-auth module">
+      <li >
+        <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">
+          Authentication and Authorization
+        </a>
+      </li>
+      
+        <li >
+          <a href="/admin/auth/group/" title="">Groups</a>
+        </li>
+      
+        <li >
+          <a href="/admin/auth/user/" title="">Users</a>
+        </li>
+      
+    </ul>
+  
+
+
+            </div>
+          
+        
+      
+
+      
+        <div id="content" class="col-xs-6 col-xs-offset-6 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main flex">
+          
+            <div class="main-header">
+              
+                <button type="button" class="show-hide-sidebar-menu">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              
+              
+              
+                <h1>
+                
+                  <span class="django-admin-title">Django administration &raquo;</span>
+                  Select article to change
+                
+                </h1>
+              
+              <div id="user-tools" class="btn-group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    
+                      
+                        awakeljw
+                      
+                    
+                    <span class="caret"></span>
+                  </button>
+
+                  
+                  <ul class="dropdown-menu pull-right" role="menu">
+                    
+                    
+                      <li>
+                        <a href="/admin/password_change/">Change password</a>
+                      </li>
+                    
+                    <li>
+                      <a href="/admin/logout/">Log out</a>
+                    </li>
+                  </ul>
+                </div>
+                
+                <a href="/admin/logout/" title="Log out" class="btn btn-default hidden-xs">
+                  <span class="glyphicon glyphicon-off"></span>
+                </a>
+              </div>
+            </div>
+          
+          
+    <ol class="breadcrumb">
+      <li class="home">
+        <a href="/admin/" title="Home"><span class="glyphicon glyphicon-home"></span></a>
+      </li>
+      <li>
+        <a href="/admin/article/">Article</a>
+      </li>
+      <li class="active">Articles</li>
+    </ol>
+  
+
+          
+            
+                
+                  <div role="alert" class="messagelist alert alert-success fade in">
+                    <button data-dismiss="alert" class="close" type="button"><span aria-hidden="true">√ó</span><span class="sr-only">Close</span></button>
+                    The article &quot;Á¨¨‰∏ÄÊ¨°ÂçöÂÆ¢‰πãÊóÖ&quot; was changed successfully.
+                  </div>
+                
+            
+          
+
+          
+  <div id="content-main">
+    
+    <div class="module" id="changelist">
+      <div class="panel panel-default">
+        <div class="panel-heading" id="panel-heading">
+          
+            <span class="title"><span class="glyphicon glyphicon-th-list"></span> Articles</span>
+          
+          
+            
+              <ul class="object-tools pull-right">
+                
+                  <li>
+                    <a href="#panel-footer" class="btn btn-default btn-xs" role="button">
+                      <span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                  </li>
+                  <li>
+                    
+                    <a href="/admin/article/article/add/" class="addlink btn btn-primary btn-xs" title="Add article" data-placement="left" data-toggle="tooltip" role="button">
+                      <span class="glyphicon glyphicon-plus"></span>
+                    </a>
+                  </li>
+                
+              </ul>
+            
+          
+        </div>
+
+        <form id="changelist-form" action="" method="post" novalidate><input type='hidden' name='csrfmiddlewaretoken' value='ctp1zl8yKlWh8qochyqIp8H4Jw9MJ5UX' />
+        
+          
+            <div class="place-info-actions">
+              <div class="progressbar-selected-rows"></div>
+            </div>
+            <div class="panel-body actions-top">
+              <div class="row">
+                <div class="col-sm-5 select">
+                  
+                    
+<div class="actions">
+  
+    <div class="input-group" title="Action:">
+      <select class="form-control required" name="action">
+<option value="" selected="selected">---------</option>
+<option value="delete_selected">Delete selected articles</option>
+</select>
+      <span class="input-group-btn">
+        <button type="submit" class="btn btn-default" title="Run the selected action" name="index" value="0">Go</button>
+      </span>
+    </div>
+  
+  <input class="select-across" name="select_across" type="hidden" value="0" />
+
+  
+    <div class="info-actions">
+      <script type="text/javascript">var _actions_icnt="2";</script>
+      <span class="action-counter label label-info">0 of 2 selected</span>
+      
+    </div>
+  
+</div>
+
+                  
+                </div>
+                <div class="col-sm-7 date-hierarchy">
+                  
+                    
+
+                  
+                </div>
+              </div>
+            </div>
+            
+
+
+  <div class="results table-responsive">
+    <table id="result_list" class="table table-striped">
+      <thead>
+        <tr>
+        
+          <th scope="col"  class="action-checkbox-column">
+          
+             <div class="text"><span><input type="checkbox" id="action-toggle" /></span></div>
+          </th>
+          <th scope="col"  class="column-__str__">
+          
+             <div class="text"><span>Article</span></div>
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        
+          
+            <tr class="row1"><td class="action-checkbox"><input class="action-select" name="_selected_action" type="checkbox" value="3" /></td><th class="field-__str__"><a href="/admin/article/article/3/">Á¨¨‰∏ÄÊ¨°ÂçöÂÆ¢‰πãÊóÖ</a></th></tr>
+        
+          
+            <tr class="row2"><td class="action-checkbox"><input class="action-select" name="_selected_action" type="checkbox" value="2" /></td><th class="field-__str__"><a href="/admin/article/article/2/">Django Blog Study</a></th></tr>
+        
+      </tbody>
+    </table>
+  </div>
+
+
+
+
+            
+          
+          <div class="panel-footer" id="panel-footer">
+            <span class="info pull-left">
+              2
+              
+                articles
+              
+            </span>
+            <div class="right-buttons">
+              <a href="#panel-heading" class="btn btn-default btn-xs" role="button">
+                <span class="glyphicon glyphicon-chevron-up"></span>
+              </a> 
+              
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+        </div>
+      
+    </div>
+  </div>
+
+
+  <script src="/static/bootstrap_admin/js/bootstrap.min.js"></script>
+  <script src="/static/bootstrap_admin/js/base.js"></script>
+
+
+
+  <script>
+    (function ($) {
+      $('.object-tools .btn').tooltip({'container':'body'});
+      $('#result_list .vTextField').addClass('form-control');
+      $('#toolbar .popover-dismiss').popover({
+        trigger: 'focus',
+        container: 'body',
+        title: '',
+        content:$('.popover-search-info').html(),
+        html:true,
+        hide:600
+      }).focus();
+
+      // checkbox progressbar
+      $checkboxes = $('#result_list .action-checkbox input');
+      var COUNT_ITEMS = $checkboxes.length;
+      $checkboxes.on('click', function () {
+        checked = $('#result_list .action-checkbox input:checked').length;
+        width = (checked * 100) / COUNT_ITEMS;
+        $('.progressbar-selected-rows').width(width + '%');
+      });
+      $('#action-toggle').on('click', function () {
+        if ($(this).is(':checked')) {
+          $('.progressbar-selected-rows').width('100%');
+        } else {
+          $('.progressbar-selected-rows').width(0);
+        }
+      });
+      $('.info-actions .clear').on('click', function () {
+        $('.progressbar-selected-rows').width(0);
+      });
+
+      // if not using date hierarchy filters
+      if (!$('.date-hierarchy').find('.toplinks').length) {
+        $('.panel-body.actions-top').addClass('no-hierarchy-filters');
+      }
+    })(django.jQuery);
+  </script>
+
+</body>
+</html>
+WTÀˆj      VÕÃ1VÕÃ1<*˘Û       -:http://localhost:9000/admin/article/article/ request-method GET request-Cookie fAvKsw0YL6Qoy0hizbzNSWRIwnI= response-head HTTP/1.0 200 OK
+Date: Wed, 24 Feb 2016 15:28:49 GMT
+Server: WSGIServer/0.1 Python/2.7.9
+Expires: Wed, 24 Feb 2016 15:28:49 GMT
+Vary: Cookie
+Last-Modified: Wed, 24 Feb 2016 15:28:49 GMT
+Cache-Control: max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+ charset UTF-8 uncompressed-len 0 predictor::resource-count 12 predictor::http://localhost:9000/static/bootstrap_admin/css/bootstrap.min.css 1,1,1456327729,0 predictor::http://localhost:9000/static/admin/css/base.css 1,1,1456327729,0 predictor::http://localhost:9000/static/admin/css/changelists.css 1,1,1456327729,0 predictor::http://localhost:9000/admin/jsi18n/ 1,1,1456327729,0 predictor::http://localhost:9000/static/admin/js/jquery.js 1,1,1456327729,0 predictor::http://localhost:9000/static/admin/js/jquery.init.js 1,1,1456327729,0 predictor::http://localhost:9000/static/admin/js/core.js 1,1,1456327729,0 predictor::http://localhost:9000/static/admin/js/admin/RelatedObjectLookups.js 1,1,1456327729,0 predictor::http://localhost:9000/static/admin/js/actions.js 1,1,1456327729,0 predictor::http://localhost:9000/static/bootstrap_admin/js/bootstrap.min.js 1,1,1456327729,0 predictor::http://localhost:9000/static/bootstrap_admin/js/base.js 1,1,1456327729,0 predictor::http://localhost:9000/static/bootstrap_admin/img/logo-140x60.png 1,1,1456327729,0   -Ú

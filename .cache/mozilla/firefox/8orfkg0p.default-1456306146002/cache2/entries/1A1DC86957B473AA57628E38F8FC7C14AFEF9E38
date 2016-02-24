@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en-us" >
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Add article | Django site admin</title>
+
+  
+    <link rel="stylesheet" type="text/css" href="/static/bootstrap_admin/css/bootstrap.min.css" />
+  
+
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/base.css" />
+
+
+  
+  <link rel="stylesheet" type="text/css" href="/static/admin/css/forms.css" />
+
+
+
+
+
+  <script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+  <script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+
+  <script>
+    (function ($) {
+      $(document).ready(function(){
+        $("#overlay").delay(600).fadeOut(500);
+      });
+    })(django.jQuery);
+  </script>
+  <script type="text/javascript">window.__admin_media_prefix__ = "/static/admin/";</script>
+  <script type="text/javascript">window.__admin_utc_offset__ = "0";</script>
+
+
+<script type="text/javascript" src="/admin/jsi18n/"></script>
+<script type="text/javascript" src="/static/admin/js/core.js"></script>
+<script type="text/javascript" src="/static/admin/js/admin/RelatedObjectLookups.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.js"></script>
+<script type="text/javascript" src="/static/admin/js/jquery.init.js"></script>
+<script type="text/javascript" src="/static/admin/js/actions.js"></script>
+
+<meta name="robots" content="NONE,NOARCHIVE" />
+
+  <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+
+
+<body class=" app-article model-article change-form">
+
+  <div id="overlay">
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid">
+    <div class="row">
+      <!-- <div class="col-sm-3 col-md-2 sidebar"> -->
+      
+        
+          
+
+            <div id="sidebar-menu" class="col-xs-6 col-sm-3 col-md-2 sidebar-menu">
+              
+                <a href="/admin/" class="django-admin-logo">
+                  <!-- Django Administration -->
+                  <img src="/static/bootstrap_admin/img/logo-140x60.png" alt="Django administration">
+                </a>
+              
+              
+              
+
+  
+    <ul class="nav nav-sidebar app-article module has-active-menu show-models">
+      <li >
+        <a href="/admin/article/" class="section" title="Models in the Article application">
+          Article
+        </a>
+      </li>
+      
+        <li class="active">
+          <a href="/admin/article/article/" title="">Articles</a>
+        </li>
+      
+    </ul>
+  
+    <ul class="nav nav-sidebar app-auth module">
+      <li >
+        <a href="/admin/auth/" class="section" title="Models in the Authentication and Authorization application">
+          Authentication and Authorization
+        </a>
+      </li>
+      
+        <li >
+          <a href="/admin/auth/group/" title="">Groups</a>
+        </li>
+      
+        <li >
+          <a href="/admin/auth/user/" title="">Users</a>
+        </li>
+      
+    </ul>
+  
+
+
+            </div>
+          
+        
+      
+
+      
+        <div id="content" class="col-xs-6 col-xs-offset-6 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main colM">
+          
+            <div class="main-header">
+              
+                <button type="button" class="show-hide-sidebar-menu">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+              
+              
+              
+                <h1>
+                
+                  <span class="django-admin-title">Django administration &raquo;</span>
+                  Add article
+                
+                </h1>
+              
+              <div id="user-tools" class="btn-group">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    
+                      
+                        awakeljw
+                      
+                    
+                    <span class="caret"></span>
+                  </button>
+
+                  
+                  <ul class="dropdown-menu pull-right" role="menu">
+                    
+                    
+                      <li>
+                        <a href="/admin/password_change/">Change password</a>
+                      </li>
+                    
+                    <li>
+                      <a href="/admin/logout/">Log out</a>
+                    </li>
+                  </ul>
+                </div>
+                
+                <a href="/admin/logout/" title="Log out" class="btn btn-default hidden-xs">
+                  <span class="glyphicon glyphicon-off"></span>
+                </a>
+              </div>
+            </div>
+          
+          
+    <ol class="breadcrumb">
+      <li class="home">
+        <a href="/admin/" title="Home"><span class="glyphicon glyphicon-home"></span></a>
+      </li>
+      <li>
+        <a href="/admin/article/">
+          Article
+        </a>
+      </li>
+      <li>
+        
+          <a href="/admin/article/article/">
+            Articles
+          </a>
+        
+      </li>
+      <li class="active">
+        Add article
+      </li>
+    </ol>
+  
+
+          
+            
+          
+
+          
+  <div id="content-main">
+    <form enctype="multipart/form-data" action="" method="post" id="article_form" role="form" novalidate>
+    <input type='hidden' name='csrfmiddlewaretoken' value='ctp1zl8yKlWh8qochyqIp8H4Jw9MJ5UX' />
+      
+
+      
+      
+      <div class="col-sm-9 form-fields">
+        <div class="panel panel-default form-panel">
+          <a href="#" class="form-expand">
+            <span class="glyphicon glyphicon-resize-horizontal "></span>
+          </a>
+          <div class="panel-body">
+            
+              <p class="errornote">
+              Please correct the error below.
+              </p>
+              
+            
+
+            
+            
+              
+<fieldset class="module aligned ">
+  
+  
+  
+    
+      
+        
+<div class="form-row form-group has-error field-title">
+    
+      
+        <div class="widget_type__admintextinputwidget">
+          
+            
+            
+              
+                <label class="required" for="id_title">Title:</label>
+              
+            
+              
+                
+                  <input class="form-control vTextField required" id="id_title" maxlength="100" name="title" type="text" />
+                
+              
+
+              
+                <p class="help-block error">This field is required.</p>
+              
+
+              
+          
+        </div>
+      
+    
+</div>
+
+
+      
+    
+  
+    
+      
+        
+<div class="form-row form-group field-category">
+    
+      
+        <div class="widget_type__admintextinputwidget">
+          
+            
+            
+              
+                <label for="id_category">Category:</label>
+              
+            
+              
+                
+                  <input class="form-control vTextField" id="id_category" maxlength="50" name="category" type="text" />
+                
+              
+
+              
+
+              
+          
+        </div>
+      
+    
+</div>
+
+
+      
+    
+  
+    
+      
+        
+<div class="form-row form-group field-content">
+    
+      
+        <div class="widget_type__admintextareawidget">
+          
+            
+            
+              
+                <label for="id_content">Content:</label>
+              
+            
+              
+                
+                  <textarea class="vLargeTextField form-control" cols="40" id="id_content" name="content" rows="10">
+dfoaiwhro</textarea>
+                
+              
+
+              
+
+              
+          
+        </div>
+      
+    
+</div>
+
+
+      
+    
+  
+</fieldset>
+
+
+            
+            
+
+            
+
+            
+            
+            
+
+            
+
+            
+                <script type="text/javascript">
+                    (function($) {
+                        $(document).ready(function() {
+                            $('form#article_form :input:visible:enabled:first').focus()
+                        });
+                    })(django.jQuery);
+                </script>
+            
+
+            
+            
+<script type="text/javascript">
+(function($) {
+    var field;
+
+
+})(django.jQuery);
+</script>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 form-buttons">
+        <div data-spy="affix" data-offset-top="125">
+          
+
+          
+            
+          
+
+          
+
+<div class="submit-row list-group">
+  
+    <button type="submit" title="Save" class="list-group-item active" name="_save">
+      <span class="glyphicon glyphicon-floppy-disk"></span>
+      <span class="text">Save</span>
+    </button>
+  
+
+  
+
+  
+    <button type="submit" class="list-group-item" title="Save and add another" name="_addanother">
+      <span class="glyphicon glyphicon-plus"></span>
+      <span class="text">Save and add another</span>
+    </button>
+  
+
+  
+    <button type="submit" class="list-group-item" title="Save and continue editing" name="_continue">
+      <span class="glyphicon glyphicon-pencil"></span>
+      <span class="text">Save and continue editing</span>
+    </button>
+  
+
+  
+</div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+        </div>
+      
+    </div>
+  </div>
+
+
+  <script src="/static/bootstrap_admin/js/bootstrap.min.js"></script>
+  <script src="/static/bootstrap_admin/js/base.js"></script>
+
+
+
+  <script>
+    (function ($) {
+      $(document).ready(function(){
+        $('.vManyToManyRawIdAdminField, .vForeignKeyRawIdAdminField').addClass('form-control');
+        $('.form-row input[type="checkbox"]').closest('li')
+                                             .addClass('checkbox');
+        $('.radiolist li').addClass('radio');
+
+        $('.form-expand').on('click', function () {
+          $form_fields = $('.form-fields');
+          $form_buttons = $('.form-buttons');
+          if ($form_fields.hasClass('expanded')) {
+            // contract form
+            $form_fields.removeClass('col-sm-11 expanded')
+                        .addClass('col-sm-9');
+            $form_buttons.removeClass('col-sm-1 contracted')
+                         .addClass('col-sm-3');
+            $form_buttons.find('.object-tools')
+                         .removeClass('btn-group-vertical')
+                         .addClass('btn-group btn-group-justified');
+          } else {
+            // expand form
+            $form_fields.removeClass('col-sm-9')
+                        .addClass('col-sm-11 expanded');
+            $form_buttons.removeClass('col-sm-3')
+                         .addClass('col-sm-1 contracted');
+            $form_buttons.find('.object-tools')
+                         .addClass('btn-group-vertical')
+                         .removeClass('btn-group btn-group-justified');
+          }
+        });
+      });
+    })(django.jQuery);
+  </script>
+
+</body>
+</html>
+€"ÆO      VÍµÈVÍµÈ<*êk       =~1456321943,:http://localhost:9000/admin/article/article/add/ necko:classified 1 request-method POST request-Cookie DiMPWPmAy1PscPLCjdpkfQ+scZQ= response-head HTTP/1.0 200 OK
+Date: Wed, 24 Feb 2016 13:53:12 GMT
+Server: WSGIServer/0.1 Python/2.7.9
+Expires: Wed, 24 Feb 2016 13:53:12 GMT
+Vary: Cookie
+Last-Modified: Wed, 24 Feb 2016 13:53:12 GMT
+Cache-Control: max-age=0
+X-Frame-Options: SAMEORIGIN
+Content-Type: text/html; charset=utf-8
+ charset UTF-8 uncompressed-len 0   ,m

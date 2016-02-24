@@ -1,0 +1,4 @@
+openConnection: connect: 没有那个文件或目录
+cannot connect to brltty at :0
+upstart: upstart-event-bridge main 进程 (1173)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生

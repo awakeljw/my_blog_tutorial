@@ -1,0 +1,20 @@
+logrotate state -- version 2
+"/home/liujiawei/.cache/upstart/upstart-event-bridge.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/window-stack-bridge.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/unity-settings-daemon.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/update-notifier-crash-_var_crash__usr_share_software-center_update-software-center-agent.1000.crash.log" 2016-2-23-19:8:53
+"/home/liujiawei/.cache/upstart/update-notifier-crash-_var_crash__usr_bin_sogou-qimpanel.1000.crash.log" 2016-2-24-16:24:47
+"/home/liujiawei/.cache/upstart/ssh-agent.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/unity-panel-service-lockscreen.log" 2016-2-24-19:0:0
+"/home/liujiawei/.cache/upstart/indicator-bluetooth.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/at-spi2-registryd.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/dbus.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/gnome-keyring-gpg.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/indicator-keyboard.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/update-notifier-release.log" 2015-10-1-19:22:10
+"/home/liujiawei/.cache/upstart/unity-panel-service.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/indicator-session.log" 2016-2-23-19:8:53
+"/home/liujiawei/.cache/upstart/unity7.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/im-config.log" 2015-10-1-20:9:3
+"/home/liujiawei/.cache/upstart/gnome-keyring-ssh.log" 2016-2-24-19:56:20
+"/home/liujiawei/.cache/upstart/indicator-sound.log" 2016-2-24-19:56:20

@@ -1,0 +1,41 @@
+openConnection: connect: 没有那个文件或目录
+cannot connect to brltty at :0
+upstart: upstart-event-bridge main 进程 (1174)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1188)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1191)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1193)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1194)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1196)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1197)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1198)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1199)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1200)以状态 1 结束
+upstart: upstart-event-bridge main 进程结束, 重新产生
+upstart: upstart-event-bridge main 进程 (1201)以状态 1 结束
+upstart: upstart-event-bridge 重新建立过快，停止
+upstart: window-stack-bridge main 进程 (1173)已经被HUP 信号杀死
+upstart: hud main 进程 (1224)已经被HUP 信号杀死
+upstart: unity-settings-daemon main 进程 (1226)已经被HUP 信号杀死
+upstart: at-spi2-registryd main 进程 (1230)已经被HUP 信号杀死
+upstart: gnome-session (Unity) main 进程 (1231)已经被HUP 信号杀死
+upstart: unity-panel-service main 进程 (1235)已经被HUP 信号杀死
+upstart: unity7 main 进程 (1238)以状态 1 结束
+upstart: indicator-messages main 进程 (1299)已经被HUP 信号杀死
+upstart: indicator-bluetooth main 进程 (1300)已经被TERM 信号杀死
+upstart: indicator-power main 进程 (1301)已经被TERM 信号杀死
+upstart: indicator-datetime main 进程 (1303)已经被TERM 信号杀死
+upstart: indicator-keyboard main 进程 (1319)已经被HUP 信号杀死
+upstart: indicator-sound main 进程 (1320)已经被HUP 信号杀死
+upstart: indicator-printers main 进程 (1332)已经被TERM 信号杀死
+upstart: indicator-session main 进程 (1334)已经被TERM 信号杀死
+upstart: indicator-application main 进程 (1355)已经被TERM 信号杀死
+upstart: Disconnected from notified D-Bus bus
